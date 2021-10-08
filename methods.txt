@@ -1,0 +1,61 @@
+# Python String Methods #
+
+capitalize() --- İlk karakteri büyük harfe dönüştürür
+casefold() --- Dizeyi küçük harfe dönüştürür
+center() --- Ortalanmış bir dize döndürür
+count() --- Belirtilen bir değerin bir dizgede kaç kez oluştuğunu döndürür
+encode() --- Dizenin kodlanmış bir sürümünü döndürür
+endwith() --- Dize belirtilen değerle bitiyorsa true değerini döndürür
+expandtabs() --- Dizenin sekme boyutunu ayarlar
+find() --- Belirtilen bir değer için dizeyi arar ve bulunduğu konumu döndürür
+format() --- Belirtilen değerleri bir dizgede biçimlendirir
+format_map() --- Belirtilen değerleri bir dizgede biçimlendirir
+index() --- Belirtilen bir değer için dizeyi arar ve bulunduğu yerin konumunu döndürür
+isalnum() --- Dizedeki tüm karakterler alfasayısal ise True döndürür
+isalpha() --- Dizedeki tüm karakterler alfabedeyse True döndürür
+isascii() --- Dizedeki tüm karakterler ascii karakter ise True döndürür
+isdecimal() --- Dizedeki tüm karakterler ondalık ise True döndürür
+isdigit() --- Dizedeki tüm karakterler rakam ise True döndürür
+isidentifier() --- Dize bir tanımlayıcı ise True döndürür
+islower() --- Dizedeki tüm karakterler küçük harf ise True döndürür
+isnumeric() --- Dizedeki tüm karakterler sayısal ise True döndürür
+isprintable() --- Dizedeki tüm karakterler yazdırılabilirse True döndürür
+isspace() --- Dizedeki tüm karakterler boşluksa True döndürür
+istitle() --- Dize bir başlığın kurallarına uyuyorsa True döndürür
+isupper() --- Dizedeki tüm karakterler büyük harf ise True döndürür
+join() --- Yinelenebilir bir öğenin öğelerini dizenin sonuna birleştirir
+ljust() --- Dizenin sola dayalı bir sürümünü döndürür
+lower() --- Bir dizeyi küçük harfe dönüştürür
+lstrip() --- Dizenin sol kırpılmış sürümünü döndürür
+maketrans() --- Çevirilerde kullanılacak bir çeviri tablosu döndürür
+partition() --- Dizenin üç parçaya ayrıldığı bir tanımlama grubu döndürür
+replace() --- Belirtilen bir değerin belirtilen bir değerle değiştirildiği bir dize döndürür
+rfind() --- Belirtilen bir değer için dizeyi arar ve bulunduğu yerin son konumunu döndürür
+rindex() --- Belirtilen bir değer için dizeyi arar ve bulunduğu yerin son konumunu döndürür
+rjust() --- Dizenin sağa yaslanmış bir sürümünü döndürür
+rpartition() --- Dizenin üç parçaya ayrıldığı bir tanımlama grubu döndürür
+rsplit() --- Dizeyi belirtilen ayırıcıda böler ve bir liste döndürür
+rstrip() --- Dizenin sağ kırpılmış sürümünü döndürür
+split() --- Dizeyi belirtilen ayırıcıda böler ve bir liste döndürür
+splitlines() --- Satır sonlarında dizeyi böler ve bir liste döndürür
+startwith() --- Dize belirtilen değerle başlıyorsa true değerini döndürür
+strip() --- Dizenin kırpılmış bir sürümünü döndürür
+swapcase() --- Harfleri değiştirir, küçük harf büyük harf olur ve tam tersi
+title() --- Her kelimenin ilk karakterini büyük harfe dönüştürür
+translate() --- Çevrilmiş bir dize döndürür
+upper() --- Bir dizeyi büyük harfe dönüştürür
+zfill() --- Dizeyi başlangıçta belirtilen sayıda 0 değerle doldurur
+
+# Python List/Array Methods #
+
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
